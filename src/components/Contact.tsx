@@ -1,4 +1,11 @@
-import { Mail, Linkedin, MapPin, Send, Instagram } from "lucide-react";
+import {
+  Mail,
+  Linkedin,
+  MapPin,
+  Send,
+  Instagram,
+  Download,
+} from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -115,6 +122,14 @@ const Contact = () => {
                 Follow
               </h4>
               <div className="flex flex-wrap gap-2 md:gap-3">
+                <a
+                  href="/assets/DIpanjali_Ray.pdf"
+                  download
+                  className="flex items-center gap-2 px-3 md:px-4 py-2 rounded-full bg-primary text-primary-foreground hover:opacity-90 transition-all font-body text-xs md:text-sm"
+                >
+                  <Download className="w-3.5 h-3.5 md:w-4 md:h-4" />
+                  Download Resume
+                </a>
                 <a
                   href="https://www.instagram.com/dipanjaliray2004/"
                   target="_blank"
