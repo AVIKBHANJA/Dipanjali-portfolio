@@ -17,7 +17,7 @@ const publications = [
     journal: "Academic Review",
     description:
       "Comprehensive review examining the Wnt signaling pathway, its molecular mechanisms, and implications in human health and disease.",
-    year: "2024",
+    year: "2025",
     status: "Published",
     doi: null,
   },
