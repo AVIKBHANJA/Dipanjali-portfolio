@@ -57,7 +57,7 @@ const Hero = () => {
             className="flex items-center gap-2 px-5 md:px-6 py-2.5 md:py-3 rounded-full bg-card border border-border text-foreground font-body font-medium text-sm md:text-base hover:border-primary hover:bg-primary/5 transition-all"
           >
             <Camera className="w-4 h-4" />
-            Explore Photography
+            Photo Gallery
           </a>
         </div>
 

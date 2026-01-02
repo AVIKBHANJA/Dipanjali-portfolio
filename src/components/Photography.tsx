@@ -105,24 +105,7 @@ const Photography = () => {
           </button>
         </div>
 
-        {/* Call to Action */}
-        <div className="text-center">
-          <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-4 md:p-6 rounded-2xl bg-card border border-border">
-            <div className="flex items-center gap-2">
-              <Heart className="w-4 h-4 md:w-5 md:h-5 text-accent-foreground" />
-              <span className="font-body text-sm md:text-base text-muted-foreground">
-                Interested in my research and internship work?
-              </span>
-            </div>
-            <a
-              href="mailto:dipanjaliray24@gmail.com?subject=Research and Internship Inquiry"
-              className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary text-primary-foreground font-body text-sm hover:opacity-90 transition-opacity"
-            >
-              <ExternalLink className="w-3.5 h-3.5" />
-              Get in Touch
-            </a>
-          </div>
-        </div>
+     
       </div>
     </section>
   );
