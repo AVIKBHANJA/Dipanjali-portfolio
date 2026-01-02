@@ -5,6 +5,7 @@ const navLinks = [
   { name: "About", href: "#about" },
   { name: "Research", href: "#experience" },
   { name: "Publications", href: "#publications" },
+  { name: "Certificates", href: "#certificates" },
   { name: "Photography", href: "#photography" },
   { name: "Contact", href: "#contact" },
 ];
@@ -17,8 +18,10 @@ const Navbar = () => {
   useEffect(() => {
     // Check for saved theme preference or system preference
     const savedTheme = localStorage.getItem("theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    
+    const prefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+
     if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
       setIsDark(true);
       document.documentElement.classList.add("dark");
@@ -72,7 +75,7 @@ const Navbar = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
-          
+
           {/* Theme Toggle - Desktop */}
           <button
             onClick={toggleTheme}
@@ -101,7 +104,7 @@ const Navbar = () => {
               <Moon className="w-5 h-5 text-foreground" />
             )}
           </button>
-          
+
           {/* Mobile Menu Button */}
           <button
             className="p-2 text-foreground"
