@@ -2,12 +2,12 @@ import { useState, useEffect } from "react";
 import { Menu, X, Moon, Sun } from "lucide-react";
 
 const navLinks = [
-  { name: "About", href: "#about" },
-  { name: "Research", href: "#experience" },
-  { name: "Publications", href: "#publications" },
-  { name: "Certificates", href: "#certificates" },
+  { name: "About", href: "/#about" },
+  { name: "Research", href: "/#experience" },
+  { name: "Publications", href: "/#publications" },
+  { name: "Certificates", href: "/#certificates" },
   { name: "Photography", href: "/photography" },
-  { name: "Contact", href: "#contact" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 const Navbar = () => {
