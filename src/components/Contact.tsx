@@ -83,17 +83,39 @@ const Contact = () => {
                   </div>
                 </a>
 
-                <div className="flex items-center gap-3 md:gap-4 p-3 md:p-4 rounded-xl md:rounded-2xl bg-card border border-border">
-                  <div className="p-2.5 md:p-3 rounded-lg md:rounded-xl bg-secondary shrink-0">
-                    <MapPin className="w-4 h-4 md:w-5 md:h-5 text-secondary-foreground" />
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+                  <div className="group relative overflow-hidden rounded-xl md:rounded-2xl border border-border bg-card p-3 md:p-4">
+                    <div className="absolute inset-0 bg-gradient-to-br from-secondary/10 via-transparent to-transparent opacity-90" />
+                    <div className="relative flex items-center gap-3 md:gap-4">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-secondary/15 text-secondary-foreground shadow-inner ring-1 ring-secondary/20 shrink-0">
+                        <MapPin className="w-4 h-4 md:w-5 md:h-5" />
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <span className="mb-1 inline-flex items-center rounded-full border border-secondary/20 bg-secondary/10 px-2 py-0.5 text-[10px] font-medium uppercase tracking-[0.14em] text-secondary-foreground">
+                          Permanent
+                        </span>
+                        <p className="font-body text-sm md:text-base text-foreground">
+                          Howrah, West Bengal, India
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <p className="font-body text-xs md:text-sm text-muted-foreground">
-                      Permanent Location
-                    </p>
-                    <p className="font-body text-sm md:text-base text-foreground">
-                      Howrah, West Bengal, India
-                    </p>
+
+                  <div className="group relative overflow-hidden rounded-xl md:rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/8 via-card to-card p-3 md:p-4">
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-transparent opacity-90" />
+                    <div className="relative flex items-center gap-3 md:gap-4">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary/10 text-primary shadow-inner ring-1 ring-primary/20 shrink-0">
+                        <MapPin className="w-4 h-4 md:w-5 md:h-5" />
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <span className="mb-1 inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-2 py-0.5 text-[10px] font-medium uppercase tracking-[0.14em] text-primary">
+                          Current
+                        </span>
+                        <p className="font-body text-sm md:text-base text-foreground">
+                          IIT Hyderabad, Telangana, India
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
