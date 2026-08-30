@@ -6,7 +6,7 @@ const certificates = [
     issuer: "CSIR - Centre for Cellular and Molecular Biology (CCMB)",
     date: "2025",
     description: "Protein-Protein Interaction studies using Mass Spectrometry",
-    image:"/assets/Adobe Scan 06-Aug-2025 (3).pdf" ,
+    image: "/assets/Adobe Scan 06-Aug-2025 (3).pdf",
     color:
       "bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border-blue-500/20",
     icon: "🔬",
@@ -62,6 +62,18 @@ const certificates = [
     color:
       "bg-gradient-to-br from-indigo-500/10 to-blue-500/10 border-indigo-500/20",
     icon: "🧬",
+  },
+  {
+    title: "NPTEL Certifications",
+    issuer: "NPTEL",
+    date: "2024 - 2025",
+    description:
+      "Portfolio of recognized NPTEL certificate achievements and coursework completion",
+    image:
+      "https://drive.google.com/drive/folders/1fH5IQRPlbSvtuS7ikEwVCk2fVoXSIVwg",
+    color:
+      "bg-gradient-to-br from-red-500/10 to-orange-500/10 border-red-500/20",
+    icon: "🎓",
   },
 ];
 
