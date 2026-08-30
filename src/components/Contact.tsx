@@ -89,7 +89,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-body text-xs md:text-sm text-muted-foreground">
-                      Location
+                      Permanent Location
                     </p>
                     <p className="font-body text-sm md:text-base text-foreground">
                       Howrah, West Bengal, India
