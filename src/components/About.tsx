@@ -18,15 +18,14 @@ const About = () => {
           {/* Left - Text Content */}
           <div className="space-y-4 md:space-y-6">
             <p className="font-body text-base md:text-lg text-foreground leading-relaxed">
-              I'm a B.Tech Biotechnology undergraduate at{" "}
-              <span className="text-primary font-medium">Heritage Institute of Technology, Kolkata</span>{" "}
-              with a passion for understanding life at the molecular level — and capturing its beauty through photography.
+              I am currently pursuing my research and academic journey at{" "}
+              <span className="text-primary font-medium">IIT Hyderabad</span>, where I continue to explore the intersection of biotechnology, molecular science, and creative expression.
             </p>
 
             <p className="font-body text-sm md:text-base text-muted-foreground leading-relaxed">
-              With international research exposure at{" "}
+              My academic foundation at Heritage Institute of Technology, Kolkata, combined with international research exposure at{" "}
               <span className="text-primary">NJIT, USA</span> and{" "}
-              <span className="text-primary">CSIR-CCMB, Hyderabad</span>, I've developed expertise in 
+              <span className="text-primary">CSIR-CCMB, Hyderabad</span>, has shaped my work in 
               proteomics, brain imaging (fMRI), and molecular docking — blending analytical insight with creative intuition.
             </p>
 

@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="relative z-10 section-container text-center px-4">
         <div className="opacity-0 animate-fade-up">
           <p className="font-body text-xs md:text-base tracking-[0.2em] md:tracking-[0.3em] uppercase text-primary mb-3 md:mb-4">
-            Biotech Undergraduate & Researcher
+            Postgraduate Student at IIT Hyderabad
           </p>
         </div>
 
@@ -32,10 +32,10 @@ const Hero = () => {
         </h1>
 
         <p className="opacity-0 animate-fade-up animation-delay-400 font-body text-base md:text-xl text-muted-foreground max-w-xl md:max-w-2xl mx-auto mb-4 md:mb-6 leading-relaxed px-2">
-          Fusing science with visual creativity — exploring the frontiers of 
+          Fusing science with visual creativity — currently exploring the frontiers of 
           <span className="text-primary font-medium"> proteomics</span>, 
           <span className="text-primary font-medium"> neuroimaging</span>, and 
-          <span className="text-primary font-medium"> molecular biology</span>.
+          <span className="text-primary font-medium"> molecular biology</span> at IIT Hyderabad.
         </p>
 
         {/* Tagline */}
